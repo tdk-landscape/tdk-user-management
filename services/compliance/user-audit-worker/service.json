@@ -1,0 +1,12 @@
+{
+  "appName": "user-audit-worker",
+  "domain": "compliance",
+  "type": "worker",
+  "stack": "compliance",
+  "port": 4031,
+  "dependencies": ["user-audit-api"],
+  "healthCheck": {
+    "enabled": true,
+    "path": "/health"
+  }
+}

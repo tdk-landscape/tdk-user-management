@@ -1,0 +1,14 @@
+{
+    "name": "user-audit-worker",
+    "version": "1.0.0",
+    "type": "module",
+    "scripts": {
+        "dev": "bun run src/index.ts",
+        "test": "bun test",
+        "typecheck": "tsc --noEmit"
+    },
+    "devDependencies": {
+        "@types/bun": "latest",
+        "typescript": "^5.0.0"
+    }
+}

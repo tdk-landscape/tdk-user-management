@@ -1,0 +1,12 @@
+{
+    "appName": "user-audit-api",
+    "domain": "compliance",
+    "type": "backend",
+    "stack": "compliance",
+    "port": 4030,
+    "dependencies": [],
+    "healthCheck": {
+        "enabled": true,
+        "path": "/health"
+    }
+}

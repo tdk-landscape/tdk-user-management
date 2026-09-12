@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="100%" height="100%">
+  <rect width="1200" height="520" fill="#020617" rx="16"/>
+
+  <!-- Grid Layout -->
+  <!-- Card 1: Enterprise Directory & SCIM (Large Left) -->
+  <g transform="translate(40, 40)">
+    <rect width="540" height="210" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+    <rect width="540" height="4" rx="2" fill="#38bdf8"/>
+    <text x="32" y="42" fill="#38bdf8" font-family="monospace" font-size="12" font-weight="700">SERVICE CONTRACT: ADMIN</text>
+    <text x="32" y="74" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="22" font-weight="800">SCIM 2.0 &amp; Directory Provisioning</text>
+    <text x="32" y="100" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14">Automated Okta, Azure AD &amp; Ping Identity sync via standard REST manifests.</text>
+    <rect x="32" y="130" width="476" height="50" rx="8" fill="#020617" stroke="#334155"/>
+    <text x="48" y="160" fill="#38bdf8" font-family="monospace" font-size="12">GET /api/v1/scim/v2/Users &#8594; 200 OK (ListResponse)</text>
+  </g>
+
+  <!-- Card 2: Self-Service & PKCE (Large Right) -->
+  <g transform="translate(620, 40)">
+    <rect width="540" height="210" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+    <rect width="540" height="4" rx="2" fill="#818cf8"/>
+    <text x="32" y="42" fill="#818cf8" font-family="monospace" font-size="12" font-weight="700">SERVICE CONTRACT: PORTAL</text>
+    <text x="32" y="74" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="22" font-weight="800">OAuth2 / OIDC PKCE Authorization</text>
+    <text x="32" y="100" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14">Zero-trust session tracking, multi-factor challenges &amp; active token revocation.</text>
+    <rect x="32" y="130" width="476" height="50" rx="8" fill="#020617" stroke="#334155"/>
+    <text x="48" y="160" fill="#818cf8" font-family="monospace" font-size="12">GET /oauth/v2/authorize &#8594; 200 OK (mfaRequired: true)</text>
+  </g>
+
+  <!-- Card 3: Compliance & Worker (Wide Bottom) -->
+  <g transform="translate(40, 270)">
+    <rect width="1120" height="210" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="1.5"/>
+    <rect width="1120" height="4" rx="2" fill="#34d399"/>
+    <text x="32" y="42" fill="#34d399" font-family="monospace" font-size="12" font-weight="700">SERVICE CONTRACT: COMPLIANCE &amp; WORKER</text>
+    <text x="32" y="74" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="22" font-weight="800">Immutable Audit Stream &amp; SIEM Event Worker</text>
+    <text x="32" y="100" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="14">Real-time asynchronous background worker ingesting audit logs directly to Datadog &amp; Splunk.</text>
+    <rect x="32" y="130" width="1056" height="50" rx="8" fill="#020617" stroke="#334155"/>
+    <text x="48" y="160" fill="#34d399" font-family="monospace" font-size="12">[Audit Stream Ingested]: { id: "evt_901", action: "ROLE_ASSIGNED", actor: "alex.rivera@enterprise.com", status: "PROCESSED" }</text>
+  </g>
+</svg>
