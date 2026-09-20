@@ -1,10 +1,9 @@
 {
   "appName": "user-audit-worker",
-  "domain": "compliance",
-  "type": "worker",
+  "appType": "worker",
   "stack": "compliance",
   "port": 4031,
-  "dependencies": ["user-audit-api"],
+  "dependsOn": ["user-audit-api"],
   "healthCheck": {
     "enabled": true,
     "path": "/health"

@@ -1,10 +1,9 @@
 {
     "appName": "user-portal-app",
-    "domain": "portal",
-    "type": "frontend",
+    "appType": "frontend",
     "stack": "portal",
     "port": 3020,
-    "dependencies": [
+    "dependsOn": [
         "user-portal-api"
     ],
     "healthCheck": {

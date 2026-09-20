@@ -1,10 +1,9 @@
 {
     "appName": "user-admin-app",
-    "domain": "admin",
-    "type": "frontend",
+    "appType": "frontend",
     "stack": "admin",
     "port": 3010,
-    "dependencies": [
+    "dependsOn": [
         "user-admin-api"
     ],
     "healthCheck": {

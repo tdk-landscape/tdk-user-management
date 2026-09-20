@@ -1,10 +1,9 @@
 {
     "appName": "user-admin-api",
-    "domain": "admin",
-    "type": "backend",
+    "appType": "backend",
     "stack": "admin",
     "port": 4010,
-    "dependencies": [],
+    "dependsOn": [],
     "healthCheck": {
         "enabled": true,
         "path": "/health"
