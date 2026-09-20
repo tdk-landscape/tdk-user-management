@@ -124,7 +124,7 @@ Every identity resource owns a compact, declarative [`service.json`](services/ad
   "appType": "backend",
   "stack": "admin",
   "port": 4010,
-  "dependencies": [],
+  "dependsOn": [],
   "healthCheck": {
     "enabled": true,
     "path": "/health"
