@@ -121,8 +121,7 @@ Every identity resource owns a compact, declarative [`service.json`](services/ad
 ```json
 {
   "appName": "user-admin-api",
-  "domain": "admin",
-  "type": "backend",
+  "appType": "backend",
   "stack": "admin",
   "port": 4010,
   "dependencies": [],
