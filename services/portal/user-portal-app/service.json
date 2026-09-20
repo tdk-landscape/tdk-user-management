@@ -9,5 +9,10 @@
     "healthCheck": {
         "enabled": true,
         "path": "/health"
-    }
+    },
+    "features": [
+        "api-client",
+        "env-config",
+        "api-index"
+    ]
 }
