@@ -39,7 +39,7 @@ You declare your identity and governance services in simple `service.json` manif
 - [Docker](https://docs.docker.com/get-docker/) is running.
 - [Tilt](https://docs.tilt.dev/install.html) is installed.
 - [Bun 1.2+](https://bun.sh/docs/installation) is installed.
-- [TDK CLI](https://github.com/tdk-landscape/tdk-cli#installation) is available as `tdk`.
+- [TDK CLI](https://github.com/tdk-landscape/tdk-cli-core#installation) is available as `tdk`.
 
 ```bash
 git clone https://github.com/tdk-landscape/tdk-user-management.git
