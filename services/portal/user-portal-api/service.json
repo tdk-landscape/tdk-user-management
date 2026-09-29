@@ -8,7 +8,5 @@
         "enabled": true,
         "path": "/health"
     },
-    "featuresEnabled": [
-        "prisma"
-    ]
+    "featuresEnabled": []
 }
