@@ -1,4 +1,4 @@
-name: TDK CI
+name: 🔐 User Management CI
 
 on:
   pull_request:
